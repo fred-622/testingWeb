@@ -17,11 +17,13 @@
         <div class="container"> <!--removing the word fluid from: "container-fluid" makes the text in the navbar align 
             with the text in the container which i prefer-->
           <a class="navbar-brand" href="index.html">My Website</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" 
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav col-6 offset-md-0" >
               <li class="nav-item">
                 <a class="nav-link" href="index.html">Home</a>
               </li>
@@ -31,15 +33,34 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="amazon.html">Amazon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cnn.html">CNN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="google.html">Google</a>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   External Sites
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="https://www.amazon.com/" target="_blank">Amazon</a></li>
-                  <li><a class="dropdown-item" href="https://www.cnn.com/" target="_blank">CNN</a></li>
-                  <li><a class="dropdown-item" href="https://www.google.com/" target="_blank">Google</a></li>
+                  <li><a class="dropdown-item" href="https://amazon.com" target="_blank">Amazon</a></li>
+                  <li><a class="dropdown-item" href="https://cnn.com" target="_blank">CNN</a></li>
+                  <li><a class="dropdown-item" href="https://google.com" target="_blank">Google</a></li>
                 </ul>
+              </li>
+            </ul>
+            <ul class="nav justify-content-end col-5 offset-md-1">
+              <li class="nav-item">
+                <a class="nav-link" href="amazon.html">Amazon</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cnn.html">CNN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="google.html">Google</a>
               </li>
             </ul>
           </div>

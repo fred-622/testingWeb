@@ -10,7 +10,7 @@ function changeText()
 // Nav bar lighting the actual name of the page we are on.
 $(function()
 {
-    var pages = ['index','about','contact'];
+    var pages = ['index','about','contact', 'amazon', 'cnn', 'google'];
     var pathname = window.location.pathname;
 
     $('.nav-link').each(function(i)
